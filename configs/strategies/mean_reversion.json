@@ -1,0 +1,19 @@
+{
+  "name": "mean_reversion",
+  "params": {
+    "ZThreshold": 1.4,
+    "Lookback": 30
+  },
+  "risk": {
+    "DailyStopLoss": -1200,
+    "PerTradeStopTicks": 10,
+    "BreakevenTicks": 6,
+    "BreakevenPlus": 1,
+    "TrailingTicks": 8,
+    "TickSize": 0.25,
+    "MaxDailyTrades": 8
+  },
+  "size": 1,
+  "symbol": "ES",
+  "tick_size": 0.25
+}

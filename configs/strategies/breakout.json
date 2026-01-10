@@ -1,0 +1,20 @@
+{
+  "name": "breakout",
+  "params": {
+    "Lookback": 20,
+    "MinRange": 1.25,
+    "Confidence": 0.6
+  },
+  "risk": {
+    "DailyStopLoss": -1500,
+    "PerTradeStopTicks": 12,
+    "BreakevenTicks": 8,
+    "BreakevenPlus": 1,
+    "TrailingTicks": 10,
+    "TickSize": 0.25,
+    "MaxDailyTrades": 6
+  },
+  "size": 1,
+  "symbol": "ES",
+  "tick_size": 0.25
+}

@@ -1,0 +1,20 @@
+{
+  "name": "delta_trend",
+  "params": {
+    "DeltaThreshold": 0.35,
+    "ProfileSkew": 0.1,
+    "MinVolume": 500
+  },
+  "risk": {
+    "DailyStopLoss": -1800,
+    "PerTradeStopTicks": 14,
+    "BreakevenTicks": 9,
+    "BreakevenPlus": 1,
+    "TrailingTicks": 12,
+    "TickSize": 0.25,
+    "MaxDailyTrades": 5
+  },
+  "size": 1,
+  "symbol": "ES",
+  "tick_size": 0.25
+}

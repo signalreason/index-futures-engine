@@ -13,6 +13,11 @@ Fully automated index-futures research, signal-generation, and execution engine.
 ## Highest-Impact Next Step
 - Implement a broker adapter for paper trading and wire the live runner to it.
 
+## Checks
+- Status: none (no GitHub Actions runs found).
+- TODO: Add CI for `go test ./...` and `go vet ./...`.
+- TODO: Add a smoke-test dataset to exercise feature generation and ML scripts in CI.
+
 ## Build
 ```
 go build ./cmd/tagen

@@ -2,6 +2,14 @@
 
 Fully automated index-futures research, signal-generation, and execution engine.
 
+## Purpose
+- Automate index-futures research, signal generation, and execution workflows.
+
+## Goals
+- Normalize tick data into replayable streams and feature datasets.
+- Run deterministic strategy logic and risk controls from config templates.
+- Support per-feature ML training and scoring alongside strategy execution.
+
 ## Build
 ```
 go build ./cmd/tagen
@@ -28,4 +36,4 @@ python ml/score_per_feature.py --features features.csv --models ml/models --out 
 ```
 
 ## Documentation
-See `docs/ENGINEERING.md` for full architecture and data details.
+See `docs/ENGINEERING.md` for full architecture and data details. Repo map: `docs/REPO_MAP.md`.

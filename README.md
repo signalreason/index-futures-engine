@@ -10,6 +10,9 @@ Fully automated index-futures research, signal-generation, and execution engine.
 - Run deterministic strategy logic and risk controls from config templates.
 - Support per-feature ML training and scoring alongside strategy execution.
 
+## Highest-Impact Next Step
+- Implement a broker adapter for paper trading and wire the live runner to it.
+
 ## Build
 ```
 go build ./cmd/tagen
